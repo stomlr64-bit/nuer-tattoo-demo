@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nuer tattoo - татуировки: графика, дотворк, перекрытия</title>
+<meta name="description" content="Nuer tattoo, тату-мастер в Москве: графика, дотворк, перекрытия старых татуировок, рисунок по эскизу или сразу на коже. Работы и зажившие татуировки на странице.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Nuer tattoo">
+<meta property="og:title" content="Татуировки в Москве: графика, дотворк, перекрытия">
+<meta property="og:description" content="Рисунок по эскизу или сразу на коже. Работы и зажившие татуировки на странице.">
+<meta property="og:url" content="{{адрес сайта}}">
+<meta property="og:image" content="{{адрес сайта}}/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high" media="(min-width: 861px)">
+<link rel="preload" as="image" href="assets/hero-m.webp" fetchpriority="high" media="(max-width: 860px)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2713%27 fill=%27%232b2927%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27none%27 stroke=%27%23b0524a%27 stroke-width=%272%27 stroke-dasharray=%272 3%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TattooParlor","name":"Nuer tattoo","description":"Тату-мастер: графика, дотворк, перекрытия, фрихенд.","url":"{{адрес сайта}}","image":"{{адрес сайта}}/assets/og.jpg","address":{"@type":"PostalAddress","addressLocality":"Москва","addressCountry":"RU"},"sameAs":["https://t.me/nuer_tattoo"]}
+</script>
+<style>
+  /* ---- тема: тёмный бархат, шесть цветов, два шрифта ------------------- */
+  .v-page {
+    --v-canvas: #2b2927; --v-surface: #3d3a37;
+    --v-ink: #ece6dc; --v-ink-soft: #b8b0a4;
+    --v-accent: #b0524a; --v-accent-ink: #fbf6ee;
+    --accent-text: #d98f85;
+    --v-font-display: "Cormorant Garamond", "Georgia", serif;
+    --v-font-text: "Onest", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 10 8 6;
+    --v-radius: 14px;
+    --v-display-weight: 500;
+    --v-track-tight: -0.01em;
+    --v-t-xs: clamp(0.8125rem, 0.79rem + 0.15vw, 0.85rem);
+    --v-t-sm: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+    --v-t-2xl: clamp(2.3rem, 1.7rem + 2.8vw, 3.9rem);
+    --v-t-3xl: clamp(2.9rem, 2rem + 4.4vw, 5.6rem);
+    --v-t-4xl: clamp(3.2rem, 1.9rem + 6vw, 6.8rem);
+    --v-canvas-85: color-mix(in oklab, var(--v-canvas) 85%, transparent);
+    --v-accent-10: color-mix(in oklab, var(--v-accent) 12%, transparent);
+  }
+  html, body { background: #2b2927; }
+  .v-page .v-display { line-height: 1.02; }
+  .v-page .v-lede { font-weight: 400; color: color-mix(in oklab, var(--v-ink) 86%, transparent); }
+  .v-page .v-label { font-weight: 500; color: var(--accent-text); letter-spacing: .14em; }
+  .v-page .v-btn { font-size: var(--v-t-base); font-weight: 600; }
+  .v-page h3 { font-family: var(--v-font-display); font-weight: 600; font-size: 1.5rem; line-height: 1.1; }
+  .v-page .v-display i, .v-page .em { font-style: italic; }
+  @media (max-width: 860px) {
+    .work figcaption, .ba__tag, .step p, .plist .note, .card-note li, .about__facts li, .foot, .close__meta, .close__hint, .hero__hint { font-size: .95rem; }
+    .v-page .v-label { font-size: .9375rem; }
+  }
+
+  /* ---- шапка ------------------------------------------------------------ */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; justify-content: space-between;
+    padding: var(--v-3) var(--v-gutter); gap: var(--v-4);
+    background: linear-gradient(to bottom, var(--v-canvas-85), transparent);
+    transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar.is-scrolled { background: var(--v-canvas-85); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__mark { font-family: var(--v-font-display); font-weight: 600; font-size: 1.6rem; letter-spacing: .02em; text-decoration: none;
+    display: inline-flex; align-items: center; gap: .5em; min-height: 44px; white-space: nowrap; }
+  .bar__mark i { width: .8em; height: .8em; border-radius: 50%; border: 1.5px dotted var(--accent-text); display: inline-block; }
+  .bar .v-btn { min-height: 44px; }
+  @media (max-width: 700px) { .bar .v-btn { padding: 0 1.1em; font-size: .95rem; } }
+
+  /* ---- узор из точек (дотворк), рисуется скриптом ------------------------ */
+  .orn { position: absolute; pointer-events: none; aspect-ratio: 1; color: var(--accent-text); opacity: .34; }
+  .orn svg { width: 100%; height: 100%; display: block; }
+
+  /* ---- акт 1 · hero ------------------------------------------------------ */
+  .hero__photo { position: absolute; inset: 0; overflow: hidden; --hx: 50%; --hy: 20%; }
+  .hero__photo img { position: absolute; left: 0; top: -4%; width: 100%; height: 108%; max-width: none; object-fit: cover; object-position: var(--hx) var(--hy); }
+  .hero__orn { left: -16vw; top: -4vh; width: min(80vh, 58vw); opacity: .2; }
+  .hero__copy { bottom: clamp(5rem, 16vh, 10rem); max-width: min(44rem, 88vw); }
+  .hero__label { display: block; margin-bottom: var(--v-4); }
+  .hero__copy .v-display { font-size: clamp(2.5rem, 1.5rem + 3.6vw, 4.8rem); }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 40ch; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .hero__hint { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .hero__line { left: var(--v-gutter); bottom: clamp(5rem, 16vh, 10rem); max-width: min(34rem, 88vw); }
+  .hero__line .v-display { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.6rem); }
+  .hero__line .v-lede { margin-top: var(--v-4); }
+  @media (max-width: 860px) {
+    .hero__orn { left: -40vw; top: auto; bottom: -12vh; width: 120vw; opacity: .16; }
+    .hero__copy .v-display { font-size: clamp(2.2rem, 1.2rem + 5vw, 3rem); }
+    .hero__copy, .hero__line { bottom: clamp(3.5rem, 9vh, 6rem); }
+    .hero__photo { --hx: 55%; --hy: 0%; }
+  }
+
+  /* ---- акт 2 · работы: боковая лента ------------------------------------- */
+  .rail { display: flex; align-items: center; gap: clamp(1rem, 2.4vw, 2.5rem); height: 100%; padding-inline: var(--v-gutter); width: max-content; }
+  .rail__head { flex: 0 0 auto; width: min(26rem, 84vw); display: grid; gap: var(--v-4); }
+  .rail__head .v-lede { max-width: 28ch; }
+  .work { flex: 0 0 auto; width: min(22rem, 46svh, 78vw); display: grid; gap: var(--v-3); }
+  .work:nth-of-type(even) { transform: translateY(5svh); }
+  .work:nth-of-type(odd) { transform: translateY(-4svh); }
+  .work img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--v-radius); box-shadow: var(--v-e1), var(--v-edge); }
+  .work figcaption { display: grid; gap: .1em; font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .work figcaption b { font-family: var(--v-font-display); font-weight: 600; font-size: 1.35rem; color: var(--v-ink); font-style: italic; }
+  .rail__end { flex: 0 0 auto; width: min(20rem, 80vw); display: grid; gap: var(--v-4); padding-right: var(--v-gutter); }
+  @media (pointer: coarse) {
+    .work, .work:nth-of-type(even), .work:nth-of-type(odd) { transform: none; width: min(18rem, 74vw); }
+    .rail { align-items: center; padding-block: var(--v-9) var(--v-6); }
+    .v-page [data-v-act="pan"] [data-v-stage] { scroll-padding-inline: var(--v-gutter); }
+    .rail__head .v-display { font-size: 2.3rem; }
+  }
+
+  /* ---- акт 3 · до и после: ползунок -------------------------------------- */
+  .ba-sec { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: center; }
+  .ba-sec__text { display: grid; gap: var(--v-5); align-content: center; }
+  .ba-sec__text .v-body { color: var(--v-ink-soft); }
+  .ba { --pos: 50%; position: relative; aspect-ratio: 4 / 5; max-height: 78svh; width: 100%; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2), var(--v-edge); touch-action: pan-y; justify-self: end; }
+  .ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ba__before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+  .ba__line { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 2px; margin-left: -1px; background: var(--v-ink); opacity: .85; pointer-events: none; }
+  .ba__knob { position: absolute; top: 50%; left: var(--pos); width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; background: var(--v-canvas-85); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 0 1.5px var(--v-ink), var(--v-e1); display: grid; place-items: center; pointer-events: none; }
+  .ba__knob::before, .ba__knob::after { content: ""; width: 7px; height: 7px; border-top: 1.5px solid var(--v-ink); border-left: 1.5px solid var(--v-ink); position: absolute; }
+  .ba__knob::before { transform: translateX(-9px) rotate(-45deg); }
+  .ba__knob::after { transform: translateX(9px) rotate(135deg); }
+  .ba__tag { position: absolute; bottom: var(--v-4); padding: .3em .8em; border-radius: 99px; background: var(--v-canvas-85); font-size: var(--v-t-xs); letter-spacing: .1em; text-transform: uppercase; pointer-events: none; }
+  .ba__tag--l { left: var(--v-4); } .ba__tag--r { right: var(--v-4); }
+  .ba__range { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+  .ba__range:focus-visible + .ba__knob { box-shadow: inset 0 0 0 2px var(--accent-text), var(--v-e1); }
+  @media (max-width: 860px) { .ba-sec { grid-template-columns: 1fr; } .ba { justify-self: stretch; } }
+
+  /* ---- акт 4 · зажило ---------------------------------------------------- */
+  .heal { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: end; }
+  .heal__figs { display: grid; grid-template-columns: 1fr 1fr; gap: var(--v-4); align-items: end; }
+  .heal__figs figure { display: grid; gap: var(--v-2); }
+  .heal__figs figure:nth-child(2) { transform: translateY(-8%); }
+  .heal__figs img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--v-radius); box-shadow: var(--v-e1), var(--v-edge); }
+  .heal__figs figcaption { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .heal__text { display: grid; gap: var(--v-5); }
+  .heal__quote { font-family: var(--v-font-display); font-style: italic; font-size: var(--v-t-xl); line-height: 1.15; color: var(--v-ink); }
+  .heal__text .v-body { color: var(--v-ink-soft); }
+  @media (max-width: 860px) { .heal { grid-template-columns: 1fr; } .heal__figs figure:nth-child(2) { transform: none; } }
+
+  /* ---- акт 5 · как проходит запись --------------------------------------- */
+  .steps { position: absolute; inset: 0; display: grid; align-items: center; padding-inline: var(--v-gutter); }
+  .steps__orn { left: -16vw; bottom: -18vh; width: min(90vh, 80vw); opacity: .24; }
+  .step { grid-area: 1 / 1; max-width: min(44rem, 90vw); margin-left: clamp(0rem, 8vw, 9rem); display: grid; gap: var(--v-4); }
+  .step__n { font-family: var(--v-font-display); font-style: italic; font-size: clamp(4rem, 3rem + 6vw, 9rem); line-height: .8; color: var(--accent-text); opacity: .9; }
+  .step p { color: color-mix(in oklab, var(--v-ink) 82%, transparent); max-width: 40ch; font-size: var(--v-t-lg); line-height: 1.4; }
+  .steps__idx { position: absolute; right: var(--v-gutter); top: 50%; transform: translateY(-50%); display: grid; gap: var(--v-3); }
+  .steps__idx span { width: 8px; height: 8px; border-radius: 50%; background: var(--v-hair-strong); display: block;
+    --on: clamp(0, 1.5 - abs(var(--v-p, 0) * 4 - var(--k) - .5) * 3, 1);
+    background: color-mix(in oklab, var(--accent-text) calc(var(--on) * 100%), var(--v-hair-strong)); transform: scale(calc(1 + var(--on) * .6)); }
+  @media (max-width: 860px) { .step { margin-left: 0; align-self: center; } .steps__idx { right: var(--v-4); } .step p { font-size: 1.1rem; } }
+
+  /* ---- акт 6 · о мастере ------------------------------------------------- */
+  .about { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: center; }
+  .about__fig { position: relative; aspect-ratio: 3 / 4; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2), var(--v-edge); }
+  .about__fig img { position: absolute; left: 0; top: -6%; width: 100%; height: 112%; max-width: none; object-fit: cover; }
+  .about__text { display: grid; gap: var(--v-5); }
+  .about__text .v-body { color: color-mix(in oklab, var(--v-ink) 84%, transparent); }
+  .about__facts { display: grid; gap: var(--v-3); margin-top: var(--v-2); padding-top: var(--v-5); border-top: 1px solid var(--v-hair); }
+  .about__facts li { display: grid; grid-template-columns: 9rem 1fr; gap: var(--v-4); font-size: var(--v-t-sm); }
+  .about__facts b { font-weight: 500; color: var(--accent-text); }
+  @media (max-width: 860px) { .about { grid-template-columns: 1fr; } .about__facts li { grid-template-columns: 1fr; gap: 0; } }
+
+  /* ---- акт 7 · цены и условия -------------------------------------------- */
+  .price { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: start; }
+  .plist { display: grid; margin-top: var(--v-6); }
+  .plist li { display: grid; grid-template-columns: 1fr auto; gap: var(--v-1) var(--v-5); padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); align-items: baseline; }
+  .plist li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .plist b { font-family: var(--v-font-display); font-weight: 600; font-size: 1.6rem; line-height: 1.1; }
+  .plist em { font-style: normal; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .plist .note { grid-column: 1 / -1; color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .card-wrap { position: sticky; top: 6rem; }
+  .card { background: var(--v-surface); border-radius: var(--v-radius); padding: var(--v-6); box-shadow: var(--v-e2), var(--v-edge); display: grid; gap: var(--v-4); }
+  .card-note { display: grid; gap: var(--v-3); }
+  .card-note li { padding-left: 1.2em; position: relative; color: color-mix(in oklab, var(--v-ink) 84%, transparent); font-size: var(--v-t-sm); }
+  .card-note li::before { content: ""; position: absolute; left: 0; top: .6em; width: 5px; height: 5px; border-radius: 50%; background: var(--accent-text); }
+  @media (max-width: 860px) { .price { grid-template-columns: 1fr; } .card-wrap { position: static; } }
+
+  /* ---- акт 8 · запись ---------------------------------------------------- */
+  .close { position: absolute; inset: 0; display: grid; grid-template-rows: 1fr auto; overflow: hidden; }
+  .close::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(40rem 40rem at var(--v-mx, 70%) var(--v-my, 40%), var(--v-accent-10), transparent 70%); }
+  .close__orn { right: -12vw; top: -10vh; width: min(86vh, 70vw); opacity: .22; }
+  .close__inner { position: relative; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: var(--v-7); align-items: center; padding: 0 var(--v-gutter); padding-top: var(--v-9); }
+  .close__inner .v-lede { margin-top: var(--v-5); }
+  .close__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .v-page .close__hint { margin-top: var(--v-5); color: var(--v-ink-soft); max-width: 44ch; font-size: var(--v-t-sm); }
+  .close__meta { display: grid; gap: var(--v-4); font-size: var(--v-t-sm); }
+  .close__meta b { display: block; font-weight: 500; color: var(--accent-text); font-size: var(--v-t-xs); letter-spacing: .12em; text-transform: uppercase; }
+  .foot { position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--v-3) var(--v-6); padding: var(--v-5) var(--v-gutter) calc(var(--v-5) + env(safe-area-inset-bottom)); color: var(--v-ink-soft); font-size: var(--v-t-xs); border-top: 1px solid var(--v-hair); }
+  @media (max-width: 860px) { .close__inner .v-display { font-size: 2.3rem; } .close__inner { grid-template-columns: 1fr; gap: var(--v-6); align-items: start; padding-top: 6.5rem; } .foot__more { display: none; } }
+
+  /* ---- вопросы ------------------------------------------------------------ */
+  .faq { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: start; }
+  .faq__head { display: grid; gap: var(--v-4); position: sticky; top: 6rem; }
+  .faq__head .v-body { color: var(--v-ink-soft); }
+  .faq__item { border-top: 1px solid var(--v-hair-strong); padding: var(--v-4) 0; }
+  .faq__item:last-child { border-bottom: 1px solid var(--v-hair-strong); }
+  .faq__item summary { cursor: pointer; list-style: none; font-family: var(--v-font-display); font-weight: 600; font-size: 1.45rem; line-height: 1.2; display: flex; justify-content: space-between; gap: var(--v-4); align-items: baseline; min-height: 44px; }
+  .faq__item summary::-webkit-details-marker { display: none; }
+  .faq__item summary::after { content: "+"; font-family: var(--v-font-text); font-weight: 400; font-size: 1.6rem; color: var(--accent-text); flex: none; }
+  .faq__item[open] summary::after { content: "-"; }
+  .faq__item p { margin: var(--v-3) 0 0; color: color-mix(in oklab, var(--v-ink) 84%, transparent); max-width: 60ch; font-size: var(--v-t-sm); line-height: 1.6; }
+  .faq__item p b { color: var(--v-ink); font-weight: 600; }
+  @media (max-width: 860px) { .faq { grid-template-columns: 1fr; } .faq__head { position: static; } .faq__item p { font-size: .95rem; } }
+  @media (max-width: 860px) {
+    .hero__cta { gap: var(--v-3); }
+    .hero__cta .v-btn { padding: .8em 1.15em; font-size: .95rem; }
+    .hero__hint { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <span data-v-progress></span>
+
+  <header class="bar">
+    <a class="bar__mark" href="#top"><i aria-hidden="true"></i>Nuer tattoo</a>
+    <nav aria-label="Быстрые ссылки"><a class="v-btn" href="https://t.me/ADDictionaryy" target="_blank" rel="noopener">Записаться</a></nav>
+  </header>
+
+  <main>
+
+    <!-- 1 · УЗНАВАНИЕ: тату-мастер, стиль, кнопка -->
+    <section id="top" data-v-act="pin" data-v-span="2" data-v-drift="#2b2927" aria-label="Nuer tattoo: татуировки">
+      <div data-v-stage>
+        <div class="hero__photo">
+          <div class="v-layer" data-v-parallax="-0.25" style="position:absolute;inset:0">
+            <picture>
+              <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+              <img src="assets/hero.webp" alt="Nuer, тату-мастер: портрет" width="1920" height="1080" fetchpriority="high">
+            </picture>
+          </div>
+          <div class="v-layer" data-v-parallax="-0.8" aria-hidden="true"><div class="orn hero__orn" data-orn="7"></div></div>
+        </div>
+        <div class="v-scrim v-scrim--lead" aria-hidden="true"></div>
+
+        <div class="v-copy v-copy--lead hero__copy" data-v-cue="0 0.55 0 0.08">
+          <span class="v-label hero__label">Тату-мастер Мария · Nuer tattoo</span>
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Татуировки в Москве: графика, дотворк, перекрытия</h1>
+          <p class="v-lede">Рисунок по эскизу или сразу на коже. Дотворк - это рисунок из мелких точек, перекрытие - новая татуировка поверх старой.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="https://t.me/ADDictionaryy" target="_blank" rel="noopener">Записаться</a>
+            <a class="v-btn v-btn--ghost" href="#raboty">Смотреть работы</a>
+            <span class="hero__hint">Запись в личные сообщения</span>
+          </div>
+        </div>
+
+        <div class="v-copy hero__line" data-v-cue="0.5 1 0.1 0">
+          <h2 class="v-display v-display--md">Если рисунок нужен <i>на вашей</i> коже, начнём с разговора</h2>
+          <p class="v-lede">Расскажите идею и место на теле. Эскиз, фрихенд или перекрытие - подберём вместе.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · ВЫБОР: работы, боковая лента -->
+    <section id="raboty" data-v-act="pan" data-v-span="4.2" data-v-drift="#302d2a" aria-label="Работы">
+      <div data-v-stage>
+        <div class="rail" data-v-pan="0.05">
+          <div class="rail__head">
+            <span class="v-label">Работы</span>
+            <h2 class="v-display v-display--lg">Рисунок, который <i>живёт</i> на коже</h2>
+            <p class="v-lede">Цветы, птицы, сюжеты, рукава. У каждой работы своё название.</p>
+          </div>
+          <figure class="work"><img src="assets/work-1.webp" alt="Сова и магнолия, чёрно-серая графика" loading="lazy" decoding="async">
+            <figcaption><b>Бесшумный хищник</b>сова и магнолия, перекрытие</figcaption></figure>
+          <figure class="work"><img src="assets/work-2.webp" alt="Лотос и знак ом на шее, дотворк" loading="lazy" decoding="async">
+            <figcaption><b>Лотос</b>дотворк на шее</figcaption></figure>
+          <figure class="work"><img src="assets/work-3.webp" alt="Цветущая вишнёвая ветвь на лопатке" loading="lazy" decoding="async">
+            <figcaption><b>В ожидании весны</b>вишнёвая ветвь на лопатке</figcaption></figure>
+          <figure class="work"><img src="assets/work-4.webp" alt="Неваляшка на плече, чёрно-серая графика" loading="lazy" decoding="async">
+            <figcaption><b>Неваляшка</b>рисунок на плече</figcaption></figure>
+          <figure class="work"><img src="assets/work-5.webp" alt="Портрет кошки на предплечье, реализм" loading="lazy" decoding="async">
+            <figcaption><b>Кошка</b>реализм, портрет питомца</figcaption></figure>
+          <figure class="work"><img src="assets/work-6.webp" alt="Рукав с мечом, чёрно-серая графика" loading="lazy" decoding="async">
+            <figcaption><b>Замах</b>рукав с мечом</figcaption></figure>
+          <div class="rail__end">
+            <h3>Больше работ - в канале</h3>
+            <p class="v-soft">Свежие татуировки и зажившие, по мере того как они появляются.</p>
+            <a class="v-btn v-btn--ghost" href="https://t.me/nuer_tattoo" target="_blank" rel="noopener">Открыть канал</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · ДОКАЗАТЕЛЬСТВО: перекрытие до и после (свой ход: ползунок) -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#2b2927" id="perekrytie" aria-label="Обновление татуировки: до и после">
+      <div class="v-wrap ba-sec">
+        <div class="ba-sec__text" data-v-in data-v-stagger="70">
+          <span class="v-label">Обновление</span>
+          <h2 class="v-display v-display--md">Старую татуировку можно <i>обновить</i></h2>
+          <p class="v-body">Первая татуировка клиентки на шее, 2023 год. Спустя несколько лет к ней добавились новые детали. Так же работаю с перекрытиями: перерабатываю исходный эскиз и вплетаю старый рисунок в новый сюжет.</p>
+          <p class="v-body">Старая татуировка, которая больше не нравится, - обычная история. Пришлите фото, и подумаем, что можно сделать.</p>
+          <p class="v-body">Потяните ползунок: слева 2023 год, справа сейчас.</p>
+        </div>
+        <div data-v-in>
+        <div class="ba" id="ba">
+          <img class="ba__after" src="assets/after.webp" alt="Татуировка на шее сейчас: лотос с новыми деталями" loading="lazy" decoding="async">
+          <div class="ba__before"><img src="assets/before.webp" alt="Первая татуировка на шее, 2023 год" loading="lazy" decoding="async"></div>
+          <span class="ba__line" aria-hidden="true"></span>
+          <span class="ba__tag ba__tag--l" aria-hidden="true">2023</span>
+          <span class="ba__tag ba__tag--r" aria-hidden="true">сейчас</span>
+          <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Сравнить до и после">
+          <span class="ba__knob" aria-hidden="true"></span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · ДОВЕРИЕ: зажило, через годы -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#302d2a" id="zazhilo" aria-label="Зажившие работы">
+      <div class="v-wrap heal">
+        <div class="heal__figs" data-v-reveal="left" data-v-reveal-at="0.1 0.5">
+          <figure><img src="assets/heal-1.webp" alt="Полностью зажившая работа: сова и магнолия" loading="lazy" decoding="async"><figcaption>Перекрытие полностью зажило</figcaption></figure>
+          <figure><img src="assets/heal-2.webp" alt="Зажившая работа с красным акцентом на предплечье" loading="lazy" decoding="async"><figcaption>Зажившие текстуры и красный акцент</figcaption></figure>
+        </div>
+        <div class="heal__text" data-v-in data-v-stagger="80">
+          <span class="v-label">Зажило</span>
+          <h2 class="v-display v-display--lg">Работа видна, когда <i>всё зажило</i></h2>
+          <p class="v-body">Показываю не только свежие татуировки, но и зажившие: так видно, как рисунок живёт на коже. Слева проект перекрытия, справа предплечье, в которое добавили красный.</p>
+          <p class="heal__quote">«В бархатные зажившие текстуры добавили долгожданный красный»</p>
+          <p class="v-soft">Из канала Марии</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ВЫБОР пути: как проходит запись, четыре шага -->
+    <section id="kak" data-v-act="pin" data-v-span="2.6" data-v-drift="#262422" aria-label="Как проходит запись">
+      <div data-v-stage>
+        <div class="steps">
+          <div class="orn steps__orn" data-orn="6" aria-hidden="true"></div>
+          <div class="step" data-v-cue="0 0.22 0 0.04">
+            <span class="step__n" aria-hidden="true">1</span>
+            <h2 class="v-display v-display--md">Идея</h2>
+            <p>Напишите, что хотите и где. Можно прислать картинку-пример или описать словами.</p>
+          </div>
+          <div class="step" data-v-cue="0.26 0.47 0.04 0.04">
+            <span class="step__n" aria-hidden="true">2</span>
+            <h2 class="v-display v-display--md">Эскиз</h2>
+            <p>Подбираем сюжет и расположение. Иногда рисунок появляется сразу на коже, без переноса эскиза - это фрихенд.</p>
+          </div>
+          <div class="step" data-v-cue="0.51 0.72 0.04 0.04">
+            <span class="step__n" aria-hidden="true">3</span>
+            <h2 class="v-display v-display--md">Сеанс</h2>
+            <p>Время и стоимость называем заранее, до начала работы.</p>
+          </div>
+          <div class="step" data-v-cue="0.76 1 0.04 0">
+            <span class="step__n" aria-hidden="true">4</span>
+            <h2 class="v-display v-display--md">Заживление</h2>
+            <p>Расскажем, как ухаживать за татуировкой. Через время можно вернуться и дополнить.</p>
+          </div>
+        </div>
+        <div class="steps__idx" aria-hidden="true"><span style="--k:0"></span><span style="--k:1"></span><span style="--k:2"></span><span style="--k:3"></span></div>
+      </div>
+    </section>
+
+    <!-- 6 · ДОВЕРИЕ: о мастере -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#2b2927" id="o-mastere" aria-label="О мастере">
+      <div class="v-wrap about">
+        <div class="about__fig" data-v-in>
+          <div class="v-layer" data-v-parallax="0.5" style="position:absolute;inset:0"><img src="assets/about.webp" alt="Тату-мастер Nuer в студии" loading="lazy" decoding="async"></div>
+        </div>
+        <div class="about__text" data-v-in data-v-stagger="80">
+          <span class="v-label">О мастере</span>
+          <h2 class="v-display v-display--lg">Мария, <i>Nuer tattoo</i></h2>
+          <p class="v-body">Работаю в графике и дотворке (рисунок из мелких точек): цветы, животные, сюжетные композиции. Люблю перекрытия и рисунок сразу на коже, когда эскиз складывается вместе с вами.</p>
+          <ul class="about__facts">
+            <li><b>Стиль</b><span>чёрно-серая графика, дотворк, редкий красный акцент</span></li>
+            <li><b>Форматы</b><span>небольшие работы, рукава, перекрытия</span></li>
+            <li><b>Город</b><span>Москва</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6б · ПОМОЩЬ: частые вопросы, слова и пример сообщения -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#2b2927" id="voprosy" aria-label="Частые вопросы">
+      <div class="v-wrap faq">
+        <div class="faq__head" data-v-in data-v-stagger="70">
+          <span class="v-label">Вопросы</span>
+          <h2 class="v-display v-display--lg">Если это <i>впервые</i></h2>
+          <p class="v-body">Коротко о том, что обычно спрашивают до записи.</p>
+        </div>
+        <div class="faq__list" data-v-in data-v-stagger="60">
+          <details class="faq__item" open>
+            <summary>Что написать в сообщении?</summary>
+            <p>Идею своими словами, место на теле и примерный размер. Можно приложить картинку-пример. Например: «Хочу цветок на запястье, размером с ладонь, вот пример». Если не знаете, что хотите, так и напишите.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Что значат слова из заголовка?</summary>
+            <p><b>Графика</b> - рисунок линиями и штриховкой, как в книжной иллюстрации. <b>Дотворк</b> - рисунок из мелких точек, из них складываются тени и объём. <b>Перекрытие</b> - новая татуировка поверх старой. <b>Фрихенд</b> - рисунок, который появляется сразу на коже, без переноса эскиза. <b>Эскиз</b> - заранее нарисованный рисунок, который согласуют до сеанса.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Хочу перекрыть старую татуировку. С чего начать?</summary>
+            <p>Сфотографируйте её целиком и крупным планом при дневном свете, без фильтров, и пришлите в сообщении. По фото станет понятно, что можно сделать. Цену перекрытия называют после просмотра фото.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно сначала просто спросить?</summary>
+            <p>Да, напишите вопрос. Сообщение ни к чему не обязывает: после ответа можно спокойно подумать.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · ВЫБОР: цены и условия -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#302d2a" id="ceny" aria-label="Цены и условия">
+      <div class="v-wrap price">
+        <div data-v-in data-v-stagger="60">
+          <span class="v-label">Цены</span>
+          <h2 class="v-display v-display--lg">Стоимость называем <i>до начала</i></h2>
+          <ul class="plist">
+            <li><b>Небольшая работа</b><em>от {{цена}}&nbsp;₽</em><span class="note">Знак, надпись, небольшой рисунок. Размер и место определим по вашей идее.</span></li>
+            <li><b>Сеанс</b><em>{{цена}}&nbsp;₽ / час</em><span class="note">Для крупных работ и рукавов оценка по эскизу.</span></li>
+            <li><b>Перекрытие</b><em>по консультации</em><span class="note">Оценим по фото старой татуировки, его можно прислать в сообщении.</span></li>
+            <li><b>Эскиз</b><em>{{цена}}&nbsp;₽</em><span class="note">Эскиз обсуждаем до сеанса, детали согласуем с вами.</span></li>
+          </ul>
+        </div>
+        <div class="card-wrap" data-v-in>
+          <div class="card" data-v-tilt="5">
+            <h3>Что важно знать</h3>
+            <ul class="card-note">
+              <li>Стоимость и время называем до начала работы</li>
+              <li>Эскиз согласуем с вами до начала работы</li>
+              <li>Как прислать идею: сообщением, можно с картинками-примерами</li>
+              <li>Перекрытие оцениваем по фото старой татуировки</li>
+            </ul>
+            <a class="v-btn" href="https://t.me/ADDictionaryy" target="_blank" rel="noopener">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · ДЕЙСТВИЕ: запись -->
+    <section id="zapis" data-v-act="pin" data-v-span="1.3" data-v-drift="#262422" aria-label="Записаться">
+      <div data-v-stage>
+        <div class="close" data-v-spotlight>
+          <div class="orn close__orn" data-orn="7" aria-hidden="true"></div>
+          <div class="close__inner">
+            <div data-v-cue="0.04">
+              <h2 class="v-display v-display--lg">Напишите идею и <i>место на теле</i></h2>
+              <p class="v-lede">Ответим, предложим время для консультации и скажем, что понадобится.</p>
+              <div class="close__cta">
+                <a class="v-btn" href="https://t.me/ADDictionaryy" target="_blank" rel="noopener" data-v-magnet="0.22" data-v-rise="0">Записаться</a>
+              </div>
+              <p class="close__hint">Для перекрытия приложите фото старой татуировки. Свежие работы - в канале.</p>
+            </div>
+            <div class="close__meta" data-v-cue="0.1">
+              <span><b>Город</b>Москва</span>
+              <span><b>Запись</b>личные сообщения в Telegram</span>
+              <span><b>Канал</b><a href="https://t.me/nuer_tattoo" target="_blank" rel="noopener">t.me/nuer_tattoo</a></span>
+            </div>
+          </div>
+          <footer class="foot">
+            <span>Nuer tattoo · Москва</span>
+            <span class="foot__more">Графика, дотворк, перекрытия, фрихенд</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  // Узор из точек (дотворк): концентрические кольца из точек, у каждого свой размер точки.
+  document.querySelectorAll('[data-orn]').forEach(function (el, n) {
+    var rings = +el.getAttribute('data-orn') || 6, s = '<svg viewBox="-100 -100 200 200" aria-hidden="true">';
+    for (var i = 1; i <= rings; i++) {
+      var r = 12 + i * (86 / rings), cnt = Math.round(r * 0.9 + i * 3), dot = 0.5 + (rings - i) * 0.09;
+      for (var k = 0; k < cnt; k++) {
+        var a = (k / cnt) * Math.PI * 2 + i * 0.4;
+        s += '<circle cx="' + (Math.cos(a) * r).toFixed(1) + '" cy="' + (Math.sin(a) * r).toFixed(1) + '" r="' + dot.toFixed(2) + '" fill="currentColor"/>';
+      }
+    }
+    el.innerHTML = s + '<circle cx="0" cy="0" r="3" fill="currentColor"/></svg>';
+  });
+
+  // На телефоне пины короче: правим атрибут до монтирования.
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('top').setAttribute('data-v-span', '1.8');
+    document.getElementById('kak').setAttribute('data-v-span', '2.4');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Ползунок «до и после».
+  (function () {
+    var box = document.getElementById('ba'); if (!box) return;
+    var range = box.querySelector('.ba__range');
+    function set() { box.style.setProperty('--pos', range.value + '%'); }
+    range.addEventListener('input', set); set();
+  })();
+
+  // Шапка: подложка после 40 px прокрутки.
+  (function () {
+    var bar = document.querySelector('.bar'), on = null;
+    function tick() { var s = window.scrollY > 40; if (s !== on) { on = s; bar.classList.toggle('is-scrolled', s); } }
+    window.addEventListener('scroll', tick, { passive: true }); tick();
+  })();
+</script>
+</body>
+</html>
